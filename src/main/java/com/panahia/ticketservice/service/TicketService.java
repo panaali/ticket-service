@@ -1,15 +1,19 @@
-package com.panahia.walmartlabs.venue.service;
+package com.panahia.ticketservice.service;
+
+import com.panahia.ticketservice.domain.SeatHold;
 
 /**
- * Created by aliakbarpanahi on 5/9/18.
+ * Created by Ali Panahi on 5/9/18.
  */
 public interface TicketService {
+
     /**
      * The number of seats in the venue that are neither held nor reserved
      *
      * @return the number of tickets available in the venue
      */
     int numSeatsAvailable();
+
     /**
      * Find and hold the best available seats for a customer
      *
@@ -19,6 +23,7 @@ public interface TicketService {
     information
      */
     SeatHold findAndHoldSeats(int numSeats, String customerEmail);
+
     /**
      * Commit seats held for a specific customer
      *
