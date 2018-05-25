@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.panahia.ticketservice.DefaultTicketServiceTest
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.105 sec
